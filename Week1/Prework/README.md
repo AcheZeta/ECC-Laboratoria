@@ -25,19 +25,27 @@
    - **La guía de estilos de iOS**
    2. ¿Qué información puedo encontrar aquí?
       **Lineamientos de UI para cada uno de los elementos y dispositivos compatibles con iOS**
-4. Entra a https://developer.apple.com/develop/ y contesta:
-   1. ¿Qué es Xcode? Y ¿Cuál es la versión más nueva? (Si tienes Mac, instálalo)
+4. [Develop](https://developer.apple.com/develop/) y contesta:
+   1. ¿Qué es Xcode?
+   **- El editor de código para swift**
+   ¿Cuál es la versión más nueva?
+   **- 11**
    2. ¿Para qué plataformas puedo desarrollar apps?
+   **- Cualquier plataforma con iOS**
    3. ¿Qué es TestFlight?
-5. Entra a https://developer.apple.com/documentation/ y contesta:
+   **-El ser**
+5. [Documentation](https://developer.apple.com/documentation/):
    1. ¿Qué es UIKit?
    2. Lee todos los kits de desarrollo de Apple y enlista 3 que te hayan llamado la atención
-6. Entra a https://developer.apple.com/swift/ y contesta:
+6. [Swift](https://developer.apple.com/swift/ y contesta):
    1. ¿Qué es Swift?, ¿En qué año salió?
    2. ¿Cuál es la versión más nueva?
    3. Lee todas las secciones de esta página y describe lo que más captó tu atención.
+
 7. Si tienes Mac, descarga de la aplicación de Libros los primeros tres links del repositorio **StartHere** del curso.
+
 8. Entra a http://online.swiftplayground.run/ y resuelve los puntos de la pregunta siguiente. Al finalizar todos los ejercicios, descarga el archivo con extensión **.swift** y súbelo a tu repositorio.
+
 9. Entra a https://docs.swift.org/swift-book/GuidedTour/GuidedTour.html y en la página de la pregunta anterior haz los siguientes ejemplos (es decir, lee el código, entiéndelo y escribe los ejemplos):
    1. **print(“Hello, world”)**
    2. **Simple Values**: prestar atención a lo siguiente:
