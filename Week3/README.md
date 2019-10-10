@@ -64,7 +64,22 @@ Puedes interpolar strings usando `\(variable)`.
 
 Ejemplo:  
 `var nombre = "Hame"`  
-`var mensaje = Hola \(nombre)`
+`var mensaje = "Hola \(nombre)"`
+
+### Concatenación
+
+Puedes concatenar strings usando el signo **+**
+
+`var nombre = "Hame"`  
+`var mensaje = "Hola" + nombre`
+
+### Operador de Asignación
+
+- *=* Asigna.
+- *+=* Suma
+- *-=* Resta
+- *\** Multiplica
+- */=* Divide
 
 ## Variables
 
