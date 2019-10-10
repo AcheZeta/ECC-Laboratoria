@@ -25,30 +25,39 @@
 | BOOL   | Booleano                            |
 | STRING | Cadena de caracteres                |
 
-Puedes conocer el tipo de dato usando: 
+Puedes conocer el tipo de dato usando:
 `type(of: variable)`
 
 ### Comentarios 📝
 
 `// Doble Diagonal para una línea`
 
-`/*  Comentarios`  
-`  multilínea  /*`
+`/* Comentarios`  
+`multilínea /*`
 
 ### Unicode & Emojis 🔮
 
 Las variables pueden contener emojis y unicodes.
 
-`var omega = "\u{03A9}"`   
+`var omega = "\u{03A9}"`  
 `var pulpo = "🐙"`
 
 Por defecto la variable pulpo es un string, pero se debe tratar como caracter asignandole el tipo ya que ocupa menos espacio en memoria.
 
 `var pulpo:Character = "🐙"`
 
-### Métodos de String 
+### Métodos de String
 
-`Esto es una línea de código`
+- Append. Agregar un nuevo caracter
+
+- Count. Contar la cantidad de caracteres.
+
+- Append. Agregar un nuevo caracter.
+
+- upperCased. Convierte a mayúsculas 
+
+- LoweCased. Convierte a minúsculas.
+
 
 ## Variables
 
