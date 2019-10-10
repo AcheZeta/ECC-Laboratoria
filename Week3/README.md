@@ -54,10 +54,17 @@ Por defecto la variable pulpo es un string, pero se debe tratar como caracter as
 
 - Append. Agregar un nuevo caracter.
 
-- upperCased. Convierte a mayúsculas 
+- upperCased. Convierte a mayúsculas
 
 - LoweCased. Convierte a minúsculas.
 
+### Interpolación de Strings
+
+Puedes interpolar strings usando `\(variable)`.
+
+Ejemplo:  
+`var nombre = "Hame"`  
+`var mensaje = Hola \(nombre)`
 
 ## Variables
 
