@@ -1,9 +1,5 @@
 # Week 1: Prework
 
-**Fecha de entrega:** 21 Sept. 2019
-
----
-
 ### Preguntas de Prework
 
 1. [iOS](https://www.apple.com/ios/ios-13/):
