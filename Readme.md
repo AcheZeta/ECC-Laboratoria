@@ -6,7 +6,7 @@ Estos talleres están basados en el programa de Apple [Programación para Todos]
 
 ## Temario 🧭
 
-1. Bloque 1: Rock, Paper, Scissors App
+1. Bloque 1: [Rock, Paper, Scissors App](https://github.com/AcheZeta/RockPaperScissors)
 2. Bloque 2: All Around the World App
 3. Bloque 3: To Do App
 4. Bloque 4: My Restaurant App
