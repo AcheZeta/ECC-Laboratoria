@@ -1,4 +1,4 @@
-# Week 2: Prework
+# Week 2: Prework II
 
 1. ## [Hacking With Swift](https://www.hackingwithswift.com/sixty) & [online.swiftplayground.run](http://online.swiftplayground.run)
 

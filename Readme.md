@@ -14,8 +14,8 @@ Estos talleres están basados en el programa de Apple [Programación para Todos]
 
 ## PREWORKS 📓
 
-- [Prework I](https://github.com/AcheZeta/ECC-Laboratoria/blob/master/Week1/Prework/README.md)
-- [Prework II](https://github.com/AcheZeta/RockPaperScissors/tree/master/Week2)
+- [Prework I](https://github.com/AcheZeta/ECC-Laboratoria/blob/master/Week1/README.md)
+- [Prework II](https://github.com/AcheZeta/ECC-Laboratoria/blob/master/Week2/README.md)
 
 ## Referencias 📚
 
