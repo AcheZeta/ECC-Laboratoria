@@ -2,7 +2,9 @@
 
 Este repositorio contiene los preworks realizados durante el Taller de Swift en Laboratoria.
 
-## Temario 🧭 
+Estos talleres están basados en el programa de Apple [Programación para Todos](https://www.apple.com/mx/everyone-can-code/) y fueron adaptados a [Laboratoria](https://www.laboratoria.la/).
+
+## Temario 🧭
 
 1. Bloque 1: Rock, Paper, Scissors App
 2. Bloque 2: All Around the World App
@@ -12,6 +14,7 @@ Este repositorio contiene los preworks realizados durante el Taller de Swift en 
 
 ## PREWORKS 📓
 
+- [Prework I](https://github.com/AcheZeta/ECC-Laboratoria/blob/master/Week1/Prework/README.md)
 - [Prework II](https://github.com/AcheZeta/RockPaperScissors/tree/master/Week2)
 
 ## Referencias 📚
