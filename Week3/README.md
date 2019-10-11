@@ -48,15 +48,13 @@ Por defecto la variable pulpo es un string, pero se debe tratar como caracter as
 
 ### Métodos de String
 
-- Append. Agregar un nuevo caracter
+- **Append**. Agregar un nuevo caracter
 
-- Count. Contar la cantidad de caracteres.
+- **Count**. Contar la cantidad de caracteres.
 
-- Append. Agregar un nuevo caracter.
+- **upperCased**. Convierte a mayúsculas
 
-- upperCased. Convierte a mayúsculas
-
-- LoweCased. Convierte a minúsculas.
+- **LoweCased**. Convierte a minúsculas.
 
 ### Interpolación de Strings
 
@@ -75,23 +73,23 @@ Puedes concatenar strings usando el signo **+**
 
 ### Operadores
 
-- *=* Asigna.
-- *+=* Suma
-- *-=* Resta
-- *\** Multiplica
-- */=* Divide
+- _=_ Asigna.
+- _+=_ Suma
+- _-=_ Resta
+- \*\*\* Multiplica
+- _/=_ Divide
 
 Operadores Aritméticos
 
-- *+* Suma Enteros (Strings se concatenan)
-- *-* Resta
-- *\** Multiplicacion
-- */* Division 
+- _+_ Suma Enteros (Strings se concatenan)
+- _-_ Resta
+- \*\*\* Multiplicacion
+- _/_ Division
 
 Operadores Relacionales
 
-- *If* Condicional
-- **
+- _If_ Condicional
+- \*\*
 
 ## Variables
 
@@ -103,11 +101,62 @@ _var edad:Int_
 
 ## **Complex Types**
 
-1. Arrays
-2. Set
-3. Tuples
-4. Arrays vs Sets vs Tuples
-5. Dictionaries
+### **Arrays:**
+
+Colecciones de objetos del tipo de datos.  
+`var array : [String] = ["Jaz", "Steph", "Hame"]`
+
+Métodos de Arrays:  
+ **_Append:_**  
+ Agregar un nuevo elemento.  
+`array.append("Ana")`
+
+**_Agregar +=:_**  
+Agrega un nuevo elemento al array.  
+`_array += ["María"]_`
+
+**_IndexOf [i]:_**  
+Conocer la posición de un elemento.  
+`array[3]`
+
+**_Count:_**  
+Contar la cantidad de elementos en un array.  
+`array.count`
+
+**_Insert:_**  
+Agregar un nuevo elemento en una posición especifica.  
+`array.insert("Liz" at: 1)`
+
+**_Remove:_**  
+Remueve un elemento en una posición especifica.  
+`array.remove(at: array.count-1)`
+
+**_RemoveAll:_**  
+Elimina todos los elementos del array dejando un arreglo vacío.  
+`array.removeAll()`
+
+**_removeFirst:_**  
+Elimina el primer elemento del arreflo.  
+`array.removeFirst()`
+
+**_removeLast:_**  
+Elimina el último elemento del arreflo.  
+`array.removeLast()`
+
+**For In:**  
+Recorre cada uno de los elementos del arreglo
+
+`for nombres in array{`  
+`print(nombres)`  
+`}`
+
+### Sets
+
+### Tuples
+
+### Arrays vs Sets vs Tuples
+
+### Dictionaries
 
 ## **Looping**:
 
