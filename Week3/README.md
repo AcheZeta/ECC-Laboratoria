@@ -73,13 +73,25 @@ Puedes concatenar strings usando el signo **+**
 `var nombre = "Hame"`  
 `var mensaje = "Hola" + nombre`
 
-### Operador de Asignación
+### Operadores
 
 - *=* Asigna.
 - *+=* Suma
 - *-=* Resta
 - *\** Multiplica
 - */=* Divide
+
+Operadores Aritméticos
+
+- *+* Suma Enteros (Strings se concatenan)
+- *-* Resta
+- *\** Multiplicacion
+- */* Division 
+
+Operadores Relacionales
+
+- *If* Condicional
+- **
 
 ## Variables
 
