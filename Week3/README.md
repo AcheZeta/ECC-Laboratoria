@@ -71,19 +71,19 @@ Puedes concatenar strings usando el signo **+**
 `var nombre = "Hame"`  
 `var mensaje = "Hola" + nombre`
 
-### Operadores
+### Operadores ➕➗➖
 
 - _=_ Asigna.
 - _+=_ Suma
 - _-=_ Resta
-- \*\*\* Multiplica
+- _\*=_ Multiplica
 - _/=_ Divide
 
 Operadores Aritméticos
 
 - _+_ Suma Enteros (Strings se concatenan)
 - _-_ Resta
-- \*\*\* Multiplicacion
+- _\*=_ Multiplicacion
 - _/_ Division
 
 Operadores Relacionales
@@ -91,7 +91,7 @@ Operadores Relacionales
 - _If_ Condicional
 - \*\*
 
-## Variables
+## Variables 📦
 
 Las variables se definen con var.
 No permite solo numeros, No permite palabras reservadas, Puede tener números y letras o Emojis.
@@ -99,9 +99,9 @@ Tambien se pueden definir como var:tipoDeDato por ejemplo:
 _var nombre:string = "Hameyalli"_  
 _var edad:Int_
 
-## **Complex Types**
+## **Complex Types** 🗂️
 
-### **Arrays:**
+### **Arrays:** 🖇️
 
 Colecciones de objetos del tipo de datos.  
 `var array : [String] = ["Jaz", "Steph", "Hame"]`
@@ -113,7 +113,7 @@ Métodos de Arrays:
 
 **_Agregar +=:_**  
 Agrega un nuevo elemento al array.  
-`_array += ["María"]_`
+`array += ["María"]`
 
 **_IndexOf [i]:_**  
 Conocer la posición de un elemento.  
@@ -152,21 +152,45 @@ Recorre cada uno de los elementos del arreglo
 
 ### Sets
 
+Almacena valores de un mismo tipo, pero no permite insertar valores que ya existen ni almacenar Objetos.
+
+`var array = [String] = ["Jaz", "Steph", "Hame"]`  
+`var set = Set(array)`
+
+`var numeros = [Int] = [1,3,5,8]`  
+`var set = Set(numeros)`
+
 ### Tuples
+
+Funcionan como los arreglos pero permite diferentes tipos de Datos.
+
+`var tupla = ("Hello", 12, true, "Javascript")`
+
+Permite acceder a los elementos mediante el indice.  
+`tupla.3`  
+Permite Modificar el valor al que accedes por uno del mismo tipo o casteandolo(?).  
+`tupla.3 = "Swift"`
+
+Puede usar Identificadores.
+
+`var tupla = (saludo:"Hello", 12, true, "Javascript")`
+`tupla.saludo`
 
 ### Arrays vs Sets vs Tuples
 
-### Dictionaries
+Funcionan como colecciones pero pueden emplearse para casos especificos dependiendo las necesidades.
 
-## **Looping**:
+### Dictionaries 💬
 
-1. Todos los ejercicios
-
-## **Structs**
+## **Looping**: 🔁
 
 1. Todos los ejercicios
 
-## **Classes**:
+## **Structs** 🧱
+
+1. Todos los ejercicios
+
+## **Classes**: 📑
 
 1. Todos los ejercicios
 
