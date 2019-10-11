@@ -73,23 +73,46 @@ Puedes concatenar strings usando el signo **+**
 
 ### Operadores ➕➗➖
 
-- _=_ Asigna.
-- _+=_ Suma
-- _-=_ Resta
-- _\*=_ Multiplica
-- _/=_ Divide
+**Operadores De asignación**
+| Operadores | Descripción |
+| ---------- | ----------- |
+| = | Asigna un valor |
+| += | Suma |
+| -= | Resta |
+| \*= | Multiplica |
+| /= | Divide |
 
-Operadores Aritméticos
+**Operadores Aritméticos**
 
-- _+_ Suma Enteros (Strings se concatenan)
-- _-_ Resta
-- _\*=_ Multiplicacion
-- _/_ Division
+| Operadores | Descripción  |
+| ---------- | ------------ |
+| +          | Suma Números |
+| -          | Resta        |
+| \*         | Multiplica   |
+| /          | Divide       |
 
-Operadores Relacionales
+**Operadores Relacionales**
 
-- _If_ Condicional
-- \*\*
+Ocupan al menos dos valores y estan acompañados de operadores de condición.
+Se usan por ejemplo con `If Else`
+
+| Operadores | Descripción       |
+| ---------- | ----------------- |
+| <          | Menor Qué         |
+| <=         | Menor o Igual     |
+| >          | Mayor qué         |
+| >=         | Mayor o Igual     |
+| ==         | Igual a           |
+| !=         | No es igual a     |
+| ===        | Exactamente igual |
+
+**Operadores Lógicos**
+
+| Operadores | Descripción                                        |
+| ---------- | -------------------------------------------------- |
+| `&&`       | **AND** Verdadero solo si ambos son verdaderos     |
+| `||`       | **OR** Verdadero si alguno es verdader             |
+| `!`        | **NOT** Si es verdadero se torna falso y viseversa |
 
 ## Variables 📦
 
@@ -143,13 +166,6 @@ Elimina el primer elemento del arreflo.
 Elimina el último elemento del arreflo.  
 `array.removeLast()`
 
-**For In:**  
-Recorre cada uno de los elementos del arreglo
-
-`for nombres in array{`  
-`print(nombres)`  
-`}`
-
 ### Sets
 
 Almacena valores de un mismo tipo, pero no permite insertar valores que ya existen ni almacenar Objetos.
@@ -182,9 +198,53 @@ Funcionan como colecciones pero pueden emplearse para casos especificos dependie
 
 ### Dictionaries 💬
 
+Son colecciones de datos que funciona como un diccionario Físico, usando una clave(identificador) y un valor.
+
+`var diccionario : [String:String] = ["LB":"Laboratoria","JS":"Javascript", "Sw":"Swift"]`  
+`diccionario[Sw]`  
+`Mostrara: Swift`
+
+`var numbers:[Int:String] = [1:"Uno", 2:"Dos"]`
+
 ## **Looping**: 🔁
 
-1. Todos los ejercicios
+### Rangos
+
+Existen 4 Tipos de Rangos:
+
+- **Cerrado** `1...5`  
+  Contiene 1,2,3,4,5
+- **Semicerrado** `1..<5`
+  Contiene hasta antes de llegar al 5
+- **Cerrado por un lado** `2...` `...2`
+  Todo lo que esta antes o después del número declarado
+- **Semicerrado por un lado** `..<5`
+  Todo lo que esta antes número declarado
+
+### For In
+
+Recorre cada uno de los elementos del array o rango y requiere una variable temporal que almacene la información.
+
+`for num in 1..10{`  
+`print(num)`  
+`}`
+
+### While
+
+Mientras un elemento sea verdadero se ejecutara el bloque.  
+`num = 5`
+`while num <= 8 {`  
+`print(num)`
+`num +1`  
+`}`
+
+### Repeat While (Do While)
+
+`num = 5`
+`repeat{`  
+`print(num)`
+`num +1`  
+`}while num <= 8`
 
 ## **Structs** 🧱
 
@@ -202,11 +262,3 @@ Funcionan como colecciones pero pueden emplearse para casos especificos dependie
 
 1.  Ciclo de vida de una app y haz un esquema de todos los estados por los que pasa un app.
 2.  Arquitectura Modelo Vista Controlador
-
-    | NOMBRE | TIPO                                |
-    | ------ | ----------------------------------- |
-    | INT    | Entero                              |
-    | DOUBLE | Flotante 64 bits hasta 15 decimales |
-    | FLOAT  | Flotante 32 bits hasta 15 decimales |
-    | BOOL   | Booleano                            |
-    | STRING | Cadena de caracteres                |
