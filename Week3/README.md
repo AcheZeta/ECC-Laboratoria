@@ -103,7 +103,7 @@ Se usan por ejemplo con `If Else`
 | >          | Mayor qué         |
 | >=         | Mayor o Igual     |
 | ==         | Igual a           |
-| !=         | No es igual a     |
+| !=         | Es diferente a    |
 | ===        | Exactamente igual |
 
 **Operadores Lógicos**
@@ -231,34 +231,90 @@ Recorre cada uno de los elementos del array o rango y requiere una variable temp
 
 ### While
 
-Mientras un elemento sea verdadero se ejecutara el bloque.  
-`num = 5`
-`while num <= 8 {`  
-`print(num)`
-`num +1`  
-`}`
+Mientras un elemento sea verdadero se ejecutara el bloque.
+
+```
+num = 5
+while num <= 8 {
+print(num)
+num +1
+}
+```
 
 ### Repeat While (Do While)
 
-`num = 5`
-`repeat{`  
-`print(num)`
-`num +1`  
-`}while num <= 8`
+```
+num = 5
+repeat{
+print(num)
+num +1
+} while num <= 8
+```
 
 ## **Structs** 🧱
 
-1. Todos los ejercicios
+Similares a las clases, usan la palabra reservada **Struct**
+
+Las estructuras hacen una copia del elemento para poder modificar.
+
+```
+struct PastelStruct{
+    var nombre : String
+    var peso : Float
+    var sabor : String
+}
+```
 
 ## **Classes**: 📑
 
-1. Todos los ejercicios
+Se crean usando la palabra reservada Class acompañado del nombre y requiere un método inicializador.
+
+Las clases hacen referencia al elemento.
+
+```
+class Pastel{
+var nombre : String
+var peso : Float
+var sabor : String
+init (nombre:String, peso:Float, sabor:String){
+self.nombre = nombre
+self.peso = peso
+self.sabor = sabor }
+}
+```
+
+Para crear un objeto de esa clase:
+
+```
+var pastelChoco = Pastel(nombre:"Choco", peso:1.0, sabor:"Chocolate")
+```
+
+Y accedemos al objeto mediante
+`print(pastelChoco.sabor)`
+
+Se puede modificar
+
+```
+pastelChoco.peso = 2.5)
+```
 
 ## **Optionals**:
 
-1. Todos los ejercicios
+Son variables que pueden tener un valor nulo o definida.
+
+`var nombre : String?`
+
+El valor que le será asignado por defecto será _nil_.
+Al reasignarlo como `nombre = "Hame"` en consola se mostrara como:
+`Optional("Hame")`
+Para forzar la asignación se usa un cierre de admiración `nombre = "Hame"!`
 
 ## Finalmente, investiga:
 
 1.  Ciclo de vida de una app y haz un esquema de todos los estados por los que pasa un app.
+
 2.  Arquitectura Modelo Vista Controlador
+
+```
+
+```
