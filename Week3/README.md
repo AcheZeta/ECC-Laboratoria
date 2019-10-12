@@ -331,4 +331,8 @@ Para forzar la asignación se usa un cierre de admiración `nombre = "Hame"!`
 
 **viewWillTransition(to:with:)**
 
+![Ciclo de Vida](https://raw.githubusercontent.com/achezeta/ecc-laboratoria/master/week3/prework/lifecycle.png)
+
 2.  Arquitectura Modelo Vista Controlador
+
+![MVC](https://raw.githubusercontent.com/AcheZeta/ECC-Laboratoria/master/Week3/Prework/1200px-MVC-Process.svg.png)
