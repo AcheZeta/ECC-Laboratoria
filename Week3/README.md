@@ -313,8 +313,22 @@ Para forzar la asignación se usa un cierre de admiración `nombre = "Hame"!`
 
 1.  Ciclo de vida de una app y haz un esquema de todos los estados por los que pasa un app.
 
+**viewWillAppear:**
+
+**viewWillLayoutSubviews:**
+
+**viewDidLayoutSubviews:**
+
+**viewDidAppear:**
+
+**viewWillDisappear:**
+
+**viewDidDisappear:**
+
+**deinit:**
+
+**didReceiveMemoryWarning()**
+
+**viewWillTransition(to:with:)**
+
 2.  Arquitectura Modelo Vista Controlador
-
-```
-
-```
