@@ -51,12 +51,15 @@
 
 ## [Swift](https://developer.apple.com/swift/ y contesta):
 
-1.  **¿Qué es Swift?**
-- Swift es un lenguaje de programación para macOS, iOS, watchOS, tvOS and más. 
-2.  **¿En qué año salió?**
+1.  **¿Qué es Swift?**.  
+- Swift es un lenguaje de programación multiparadigma para macOS, iOS, watchOS, tvOS and más. 
+
+2.  **¿En qué año salió?**.  
 - Durante  WWDC 2014
+
 3.  **¿Cuál es la versión más nueva?**
 - 5.1
+
 4.  **Lee todas las secciones de esta página y describe lo que más captó tu atención.**
 
 5.  Si tienes Mac, descarga de la aplicación de Libros los primeros tres links del repositorio **StartHere** del curso.
