@@ -47,6 +47,8 @@
 
 1.  **¿Qué es UIKit?**
 
+- Un framework de iOS
+
 2.  **Lee todos los kits de desarrollo de Apple y enlista 3 que te hayan llamado la atención**
 
 ## [Swift](https://developer.apple.com/swift/ y contesta):
