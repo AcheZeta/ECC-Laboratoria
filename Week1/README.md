@@ -47,13 +47,21 @@
 
 1.  **¿Qué es UIKit?**
 
+- Un framework de iOS
+
 2.  **Lee todos los kits de desarrollo de Apple y enlista 3 que te hayan llamado la atención**
 
 ## [Swift](https://developer.apple.com/swift/ y contesta):
 
-1.  **¿Qué es Swift?**
-2.  **¿En qué año salió?**
+1.  **¿Qué es Swift?**.  
+- Swift es un lenguaje de programación multiparadigma para macOS, iOS, watchOS, tvOS and más. 
+
+2.  **¿En qué año salió?**.  
+- Durante  WWDC 2014
+
 3.  **¿Cuál es la versión más nueva?**
+- 5.1
+
 4.  **Lee todas las secciones de esta página y describe lo que más captó tu atención.**
 
 5.  Si tienes Mac, descarga de la aplicación de Libros los primeros tres links del repositorio **StartHere** del curso.
